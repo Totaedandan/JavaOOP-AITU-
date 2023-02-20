@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+   <!--- basic page needs
+   ================================================== -->
+   <meta charset="utf-8">
+	<title>Room Booking Services</title>
+	<meta name="author" content="Saken">
+
+ 	<!-- CSS
+   ================================================== -->
+   <link rel="stylesheet" href="css/base.css">
+   <link rel="stylesheet" href="css/main.css">
+   
+   <!-- favicon
+	================================================== -->
+	<link rel="shortcut icon" href="/favicon.png" >
+
+</head>
+
+<body>
+
+	<!-- header
+   ================================================== -->
+   <header id="main-header">
+
+   	<div class="row">
+
+	      <div class="logo">
+	         <a href="">PaintEdition</a>
+	      </div>
+
+	      <nav id="nav-wrap">     
+		  
+	         <ul id="nav" class="nav">
+				 <li>
+					 <form class="search" action="/hotel/by_name" method="post">
+						 <input type="text" name="name" placeholder="Search the rooms..">
+						 <input type="submit" value="Search">
+					 </form>
+				 </li>
+	            <li><a class="scroll" href="#hero">Home</a></li>
+		        <li><a class="scroll" href="#gallery">Gallery</a></li>
+				<li><span>|</span></li>
+				<li><a class="scroll" href="signup.html">Sign up</a></li>
+	         </ul> <!-- end #nav -->
+          
+	      </nav> <!-- end #nav-wrap -->   
+
+	   </div>
+
+   </header> <!-- end header -->
+
+
+	<!-- homepage hero
+    ================================================== -->
+	<section id="hero">
+
+		<h1 class="main-title">Take a look at some of <a class="smoothscroll" href="#gallery" title="gallery"><u>our
+			rooms</u></a> or
+			<a class="smoothscroll" href="#contact" title="contact us"><u>book</u></a>
+			a room here.
+		</h1>
+
+		<div id="more">
+			<a class="smoothscroll" href="#contact">Booking<i class="fa fa-angle-down"></i></a>
+		</div>
+
+	</section> <!-- end homepage hero -->
+
+
+	<!-- gallery
+    ================================================== -->
+	<section id="gallery">
+
+		<div class="row section-head">
+
+			<div class="twelve columns">
+
+				<h1>Rooms<span>.</span></h1>
+
+			</div>
+
+		</div> <!-- end section-head -->
+
+		<div class="row items">
+
+			<!-- portfolio-wrapper -->
+			<div id="portfolio-wrapper" class="bgrid-fourth s-bgrid-third tab-bgrid-half">
+
+				<a class="bgrid folio-item" href="/hotel/by_name/Econom">
+					<div class="item-wrap">
+						<img src="../images/portfolio/econom.jpeg">
+						<div class="overlay"></div>
+						<div class="portfolio-item-meta">
+							<h5>Econom</h5>
+							<p>5000-10000</p>
+						</div>
+					</div>
+				</a> <!-- item end -->
+
+				<a class="bgrid folio-item" href="/hotel/by_name/Regular">
+					<div class="item-wrap">
+						<img src="../images/portfolio/regular.jpeg">
+						<div class="overlay">
+							<div class="portfolio-item-meta">
+								<h5>Regular</h5>
+								<p>10000-30000</p>
+							</div>
+						</div>
+						<div class="link-icon"><i class="fa fa-plus"></i></div>
+					</div>
+				</a> <!-- item end -->
+
+				<a class="bgrid folio-item" href="/hotel/by_name/Business">
+					<div class="item-wrap">
+						<img src="../images/portfolio/business.jpeg">
+						<div class="overlay">
+							<div class="portfolio-item-meta">
+								<h5>Business</h5>
+								<p>40000-70000</p>
+							</div>
+						</div>
+					</div>
+				</a> <!-- item end -->
+
+				<a class="bgrid folio-item" href="/hotel/by_name/Lux">
+					<div class="item-wrap">
+						<img src="../images/portfolio/lux.jpeg">
+						<div class="overlay">
+							<div class="portfolio-item-meta">
+								<h5>Lux</h5>
+								<p>95000-150000</p>
+							</div>
+						</div>
+						<div class="link-icon"><i class="fa fa-plus"></i></div>
+					</div>
+				</a>
+			</div> <!-- item end -->
+
+		</div> <!-- end portfolio-wrapper -->
+
+	</section> <!-- end portfolio -->
+  
+</body>
+
+</html>
